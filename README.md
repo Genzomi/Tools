@@ -4,6 +4,7 @@
 <BR>
 =============================================
 Define the URL of the target website:
+<br>
 url = "http://example.com/vulnerable_page.php"
 
 Define a list of SQL injection payloads to test:
