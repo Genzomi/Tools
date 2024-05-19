@@ -42,27 +42,26 @@ def test_sql_injection(url, payloads):
             print(f"An error occurred: {e}")
 
 Call the function to run the test:
+<br>
 test_sql_injection(url, payloads)
-
-
 
 ===========================================
                    XSS
 ===========================================
+First, make sure you have the requests library installed. If not, you can install it using pip:
+<br>
+pip install requests
 
+Explanation:
+URL Definition: The URL of the target website is defined as url.
+Payloads List: A list of common XSS payloads is defined. These payloads will be tested to see if they are reflected in the response.
+Function Definition (test_xss): This function takes the URL and payloads as parameters and iterates through each payload:
+Construct URL: For each payload, the script constructs a test URL by appending the payload to the query parameter input.
+Send Request: It sends an HTTP GET request to the constructed URL.
+Check Response: It checks if the payload is reflected in the response text. If it is, it prints a message indicating a potential XSS vulnerability. If not, it prints a message that the payload did not trigger an XSS vulnerability.
+Error Handling: The script includes error handling to catch and print any exceptions that occur during the HTTP request.
 
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 SQLI.py & XSS.py the script for testing vulnerability on the website with python language.
 
 You can run this script for testing the website with following step:
