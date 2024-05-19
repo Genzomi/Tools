@@ -1,5 +1,7 @@
 =============================================
+<BR>
                SQL INJECTION
+<BR>
 =============================================
 Define the URL of the target website:
 url = "http://example.com/vulnerable_page.php"
