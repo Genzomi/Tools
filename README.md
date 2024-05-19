@@ -103,7 +103,7 @@ Error Handling: The script includes error handling to catch and print any except
 <br>
 test_xss(url, payloads)
 
-=========================================
+===============================================
 <br>
 SQLI.py & XSS.py the script for testing vulnerability on the website with python language.
 
