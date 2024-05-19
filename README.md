@@ -46,7 +46,9 @@ Call the function to run the test:
 test_sql_injection(url, payloads)
 
 ===========================================
+  <br>
                    XSS
+  <br>
 ===========================================
 First, make sure you have the requests library installed. If not, you can install it using pip:
 <br>
